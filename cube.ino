@@ -117,7 +117,7 @@ int lenght = 0;
 // String data;
 
 void loop() {    
-
+//способ со строками, при таком раскладе куб загорается только, если (data.length() == 1)
     String data;
     if (Serial.available() > 0) {
         data = Serial.readStringUntil("\n");
@@ -127,6 +127,7 @@ void loop() {
         }
     }
 
+    //способ с массивом char, при таком раскладе куб загорается ВСЕГДА сука такая ебучая
     // char buf[50];
 
     // if (Serial.available() > 0) {
