@@ -112,7 +112,7 @@ void getArray() {
 
 
 
-int lenght = 0;
+
 
 // String data;
 
@@ -129,6 +129,7 @@ void loop() {
 
     //способ с массивом char, при таком раскладе куб загорается ВСЕГДА сука такая ебучая
     // char buf[50];
+    // int lenght = 0;
 
     // if (Serial.available() > 0) {
     //     int size = Serial.available();
